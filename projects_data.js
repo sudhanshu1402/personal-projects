@@ -4,8 +4,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Easy/BMI Calculator",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FEasy%2FBMI%20Calculator&title=BMI%20Calculator&name=BMI%20Calculator",
+        "path": "python-projects/easy/bmi-calculator",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Feasy%2Fbmi-calculator",
         "actionText": "Execute in Replit"
     },
     {
@@ -13,8 +13,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Easy/Count Down Timer",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FEasy%2FCount%20Down%20Timer&title=Count%20Down%20Timer&name=Count%20Down%20Timer",
+        "path": "python-projects/easy/count-down-timer",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Feasy%2Fcount-down-timer",
         "actionText": "Execute in Replit"
     },
     {
@@ -22,8 +22,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Easy/Currency",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FEasy%2FCurrency&title=Currency&name=Currency",
+        "path": "python-projects/easy/currency",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Feasy%2Fcurrency",
         "actionText": "Execute in Replit"
     },
     {
@@ -31,8 +31,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Easy/Tic Tac Toe",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FEasy%2FTic%20Tac%20Toe&title=Tic%20Tac%20Toe&name=Tic%20Tac%20Toe",
+        "path": "python-projects/easy/tic-tac-toe",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Feasy%2Ftic-tac-toe",
         "actionText": "Execute in Replit"
     },
     {
@@ -40,8 +40,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Expert/Color Detection",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FExpert%2FColor%20Detection&title=Color%20Detection&name=Color%20Detection",
+        "path": "python-projects/expert/color-detection",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fexpert%2Fcolor-detection",
         "actionText": "Execute in Replit"
     },
     {
@@ -49,8 +49,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Expert/Gender & Age Detection",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FExpert%2FGender%20%26%20Age%20Detection&title=Gender%20%26%20Age%20Detection&name=Gender%20%26%20Age%20Detection",
+        "path": "python-projects/expert/gender-&-age-detection",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fexpert%2Fgender-%26-age-detection",
         "actionText": "Execute in Replit"
     },
     {
@@ -58,8 +58,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Expert/Keyboard Jump Game",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FExpert%2FKeyboard%20Jump%20Game&title=Keyboard%20Jump%20Game&name=Keyboard%20Jump%20Game",
+        "path": "python-projects/expert/keyboard-jump-game",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fexpert%2Fkeyboard-jump-game",
         "actionText": "Execute in Replit"
     },
     {
@@ -67,8 +67,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Hard/Fruit Ninja Game",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FHard%2FFruit%20Ninja%20Game&title=Fruit%20Ninja%20Game&name=Fruit%20Ninja%20Game",
+        "path": "python-projects/hard/fruit-ninja-game",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fhard%2Ffruit-ninja-game",
         "actionText": "Execute in Replit"
     },
     {
@@ -76,8 +76,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Hard/UNO",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FHard%2FUNO&title=UNO&name=UNO",
+        "path": "python-projects/hard/uno",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fhard%2Funo",
         "actionText": "Execute in Replit"
     },
     {
@@ -85,8 +85,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Medium/2048",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FMedium%2F2048&title=2048&name=2048",
+        "path": "python-projects/medium/2048",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fmedium%2F2048",
         "actionText": "Execute in Replit"
     },
     {
@@ -94,8 +94,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Medium/Circo",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FMedium%2FCirco&title=Circo&name=Circo",
+        "path": "python-projects/medium/circo",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fmedium%2Fcirco",
         "actionText": "Execute in Replit"
     },
     {
@@ -103,8 +103,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Medium/Library Management System/Dev Hiring Test",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FMedium%2FLibrary%20Management%20System%2FDev%20Hiring%20Test&title=Dev%20Hiring%20Test&name=Dev%20Hiring%20Test",
+        "path": "python-projects/medium/library-management-system/dev-hiring-test",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fmedium%2Flibrary-management-system%2Fdev-hiring-test",
         "actionText": "Execute in Replit"
     },
     {
@@ -112,8 +112,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Medium/Ping Pong Game",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FMedium%2FPing%20Pong%20Game&title=Ping%20Pong%20Game&name=Ping%20Pong%20Game",
+        "path": "python-projects/medium/ping-pong-game",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fmedium%2Fping-pong-game",
         "actionText": "Execute in Replit"
     },
     {
@@ -121,8 +121,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Medium/Speed Typing Test",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FMedium%2FSpeed%20Typing%20Test&title=Speed%20Typing%20Test&name=Speed%20Typing%20Test",
+        "path": "python-projects/medium/speed-typing-test",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fmedium%2Fspeed-typing-test",
         "actionText": "Execute in Replit"
     },
     {
@@ -130,8 +130,8 @@ const PROJECT_DATA = [
         "category": "Python",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Python-Projects/Medium/Sudoku",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Python-Projects%2FMedium%2FSudoku&title=Sudoku&name=Sudoku",
+        "path": "python-projects/medium/sudoku",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fmedium%2Fsudoku",
         "actionText": "Execute in Replit"
     },
     {
@@ -139,8 +139,8 @@ const PROJECT_DATA = [
         "category": "Java",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Java-Projects/Easy/Temperature-Converter",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Java-Projects%2FEasy%2FTemperature-Converter&title=Temperature%20Converter&name=Temperature%20Converter",
+        "path": "java-projects/easy/temperature-converter",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Feasy%2Ftemperature-converter",
         "actionText": "Execute in Replit"
     },
     {
@@ -148,8 +148,8 @@ const PROJECT_DATA = [
         "category": "Java",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Java-Projects/Expert/Stock-Trading-Engine",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Java-Projects%2FExpert%2FStock-Trading-Engine&title=Stock%20Trading%20Engine&name=Stock%20Trading%20Engine",
+        "path": "java-projects/expert/stock-trading-engine",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Fexpert%2Fstock-trading-engine",
         "actionText": "Execute in Replit"
     },
     {
@@ -157,8 +157,8 @@ const PROJECT_DATA = [
         "category": "Java",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Java-Projects/Hard/Mall Management System",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Java-Projects%2FHard%2FMall%20Management%20System&title=Mall%20Management%20System&name=Mall%20Management%20System",
+        "path": "java-projects/hard/mall-management-system",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Fhard%2Fmall-management-system",
         "actionText": "Execute in Replit"
     },
     {
@@ -166,8 +166,8 @@ const PROJECT_DATA = [
         "category": "Java",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Java-Projects/Hard/Photo Manager/app/src/androidTest/java/com/example/sudhanshusingh/manageit",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Java-Projects%2FHard%2FPhoto%20Manager%2Fapp%2Fsrc%2FandroidTest%2Fjava%2Fcom%2Fexample%2Fsudhanshusingh%2Fmanageit&title=manageit&name=manageit",
+        "path": "java-projects/hard/photo-manager/app/src/android-test/java/com/example/sudhanshusingh/manageit",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Fhard%2Fphoto-manager%2Fapp%2Fsrc%2Fandroid-test%2Fjava%2Fcom%2Fexample%2Fsudhanshusingh%2Fmanageit",
         "actionText": "Execute in Replit"
     },
     {
@@ -175,8 +175,8 @@ const PROJECT_DATA = [
         "category": "Java",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Java-Projects/Hard/Photo Manager/app/src/main/java/com/example/sudhanshusingh/manageit",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Java-Projects%2FHard%2FPhoto%20Manager%2Fapp%2Fsrc%2Fmain%2Fjava%2Fcom%2Fexample%2Fsudhanshusingh%2Fmanageit&title=manageit&name=manageit",
+        "path": "java-projects/hard/photo-manager/app/src/main/java/com/example/sudhanshusingh/manageit",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Fhard%2Fphoto-manager%2Fapp%2Fsrc%2Fmain%2Fjava%2Fcom%2Fexample%2Fsudhanshusingh%2Fmanageit",
         "actionText": "Execute in Replit"
     },
     {
@@ -184,8 +184,8 @@ const PROJECT_DATA = [
         "category": "Java",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Java-Projects/Hard/Photo Manager/app/src/test/java/com/example/sudhanshusingh/manageit",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Java-Projects%2FHard%2FPhoto%20Manager%2Fapp%2Fsrc%2Ftest%2Fjava%2Fcom%2Fexample%2Fsudhanshusingh%2Fmanageit&title=manageit&name=manageit",
+        "path": "java-projects/hard/photo-manager/app/src/test/java/com/example/sudhanshusingh/manageit",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Fhard%2Fphoto-manager%2Fapp%2Fsrc%2Ftest%2Fjava%2Fcom%2Fexample%2Fsudhanshusingh%2Fmanageit",
         "actionText": "Execute in Replit"
     },
     {
@@ -193,8 +193,8 @@ const PROJECT_DATA = [
         "category": "Java",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Java-Projects/Medium/Scientific Calculator/app/src/androidTest/java/com/sudhanshusingh/scientificcalc",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Java-Projects%2FMedium%2FScientific%20Calculator%2Fapp%2Fsrc%2FandroidTest%2Fjava%2Fcom%2Fsudhanshusingh%2Fscientificcalc&title=scientificcalc&name=scientificcalc",
+        "path": "java-projects/medium/scientific-calculator/app/src/android-test/java/com/sudhanshusingh/scientificcalc",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Fmedium%2Fscientific-calculator%2Fapp%2Fsrc%2Fandroid-test%2Fjava%2Fcom%2Fsudhanshusingh%2Fscientificcalc",
         "actionText": "Execute in Replit"
     },
     {
@@ -202,8 +202,8 @@ const PROJECT_DATA = [
         "category": "Java",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Java-Projects/Medium/Scientific Calculator/app/src/main/java/com/sudhanshusingh/sudhanshusinghCalculator",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Java-Projects%2FMedium%2FScientific%20Calculator%2Fapp%2Fsrc%2Fmain%2Fjava%2Fcom%2Fsudhanshusingh%2FsudhanshusinghCalculator&title=sudhanshusinghCalculator&name=sudhanshusinghCalculator",
+        "path": "java-projects/medium/scientific-calculator/app/src/main/java/com/sudhanshusingh/sudhanshusingh-calculator",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Fmedium%2Fscientific-calculator%2Fapp%2Fsrc%2Fmain%2Fjava%2Fcom%2Fsudhanshusingh%2Fsudhanshusingh-calculator",
         "actionText": "Execute in Replit"
     },
     {
@@ -211,8 +211,8 @@ const PROJECT_DATA = [
         "category": "Java",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Java-Projects/Medium/Scientific Calculator/app/src/test/java/com/dataflair/scientificcalc",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Java-Projects%2FMedium%2FScientific%20Calculator%2Fapp%2Fsrc%2Ftest%2Fjava%2Fcom%2Fdataflair%2Fscientificcalc&title=scientificcalc&name=scientificcalc",
+        "path": "java-projects/medium/scientific-calculator/app/src/test/java/com/dataflair/scientificcalc",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Fmedium%2Fscientific-calculator%2Fapp%2Fsrc%2Ftest%2Fjava%2Fcom%2Fdataflair%2Fscientificcalc",
         "actionText": "Execute in Replit"
     },
     {
@@ -220,8 +220,8 @@ const PROJECT_DATA = [
         "category": "C",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "C-Projects/Easy/Calendar",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=C-Projects%2FEasy%2FCalendar&title=Calendar&name=Calendar",
+        "path": "c-projects/easy/calendar",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=c-projects%2Feasy%2Fcalendar",
         "actionText": "Execute in Replit"
     },
     {
@@ -229,8 +229,8 @@ const PROJECT_DATA = [
         "category": "C",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "C-Projects/Easy/Number-Guessing-Game",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=C-Projects%2FEasy%2FNumber-Guessing-Game&title=Number%20Guessing%20Game&name=Number%20Guessing%20Game",
+        "path": "c-projects/easy/number-guessing-game",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=c-projects%2Feasy%2Fnumber-guessing-game",
         "actionText": "Execute in Replit"
     },
     {
@@ -238,8 +238,8 @@ const PROJECT_DATA = [
         "category": "C",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "C-Projects/Expert/Simple-Shell",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=C-Projects%2FExpert%2FSimple-Shell&title=Simple%20Shell&name=Simple%20Shell",
+        "path": "c-projects/expert/simple-shell",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=c-projects%2Fexpert%2Fsimple-shell",
         "actionText": "Execute in Replit"
     },
     {
@@ -247,8 +247,8 @@ const PROJECT_DATA = [
         "category": "C",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "C-Projects/Expert/Web-Server",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=C-Projects%2FExpert%2FWeb-Server&title=Web%20Server&name=Web%20Server",
+        "path": "c-projects/expert/web-server",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=c-projects%2Fexpert%2Fweb-server",
         "actionText": "Execute in Replit"
     },
     {
@@ -256,8 +256,8 @@ const PROJECT_DATA = [
         "category": "C",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "C-Projects/Hard/Bank-System",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=C-Projects%2FHard%2FBank-System&title=Bank%20System&name=Bank%20System",
+        "path": "c-projects/hard/bank-system",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=c-projects%2Fhard%2Fbank-system",
         "actionText": "Execute in Replit"
     },
     {
@@ -265,8 +265,8 @@ const PROJECT_DATA = [
         "category": "C",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "C-Projects/Hard/Hospital-Management",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=C-Projects%2FHard%2FHospital-Management&title=Hospital%20Management&name=Hospital%20Management",
+        "path": "c-projects/hard/hospital-management",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=c-projects%2Fhard%2Fhospital-management",
         "actionText": "Execute in Replit"
     },
     {
@@ -274,8 +274,8 @@ const PROJECT_DATA = [
         "category": "C",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "C-Projects/Medium/Phonebook-System",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=C-Projects%2FMedium%2FPhonebook-System&title=Phonebook%20System&name=Phonebook%20System",
+        "path": "c-projects/medium/phonebook-system",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=c-projects%2Fmedium%2Fphonebook-system",
         "actionText": "Execute in Replit"
     },
     {
@@ -283,8 +283,8 @@ const PROJECT_DATA = [
         "category": "C",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "C-Projects/Medium/Voting System",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=C-Projects%2FMedium%2FVoting%20System&title=Voting%20System&name=Voting%20System",
+        "path": "c-projects/medium/voting-system",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=c-projects%2Fmedium%2Fvoting-system",
         "actionText": "Execute in Replit"
     },
     {
@@ -292,8 +292,8 @@ const PROJECT_DATA = [
         "category": "Cpp",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Cpp-Projects/Easy/Simple-Calculator",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Cpp-Projects%2FEasy%2FSimple-Calculator&title=Simple%20Calculator&name=Simple%20Calculator",
+        "path": "cpp-projects/easy/simple-calculator",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=cpp-projects%2Feasy%2Fsimple-calculator",
         "actionText": "Execute in Replit"
     },
     {
@@ -301,8 +301,8 @@ const PROJECT_DATA = [
         "category": "Cpp",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Cpp-Projects/Easy/Stopwatch",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Cpp-Projects%2FEasy%2FStopwatch&title=Stopwatch&name=Stopwatch",
+        "path": "cpp-projects/easy/stopwatch",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=cpp-projects%2Feasy%2Fstopwatch",
         "actionText": "Execute in Replit"
     },
     {
@@ -310,8 +310,8 @@ const PROJECT_DATA = [
         "category": "Cpp",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Cpp-Projects/Easy/Unit-Converter",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Cpp-Projects%2FEasy%2FUnit-Converter&title=Unit%20Converter&name=Unit%20Converter",
+        "path": "cpp-projects/easy/unit-converter",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=cpp-projects%2Feasy%2Funit-converter",
         "actionText": "Execute in Replit"
     },
     {
@@ -319,8 +319,8 @@ const PROJECT_DATA = [
         "category": "Cpp",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Cpp-Projects/Expert/Memory-Allocator",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Cpp-Projects%2FExpert%2FMemory-Allocator&title=Memory%20Allocator&name=Memory%20Allocator",
+        "path": "cpp-projects/expert/memory-allocator",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=cpp-projects%2Fexpert%2Fmemory-allocator",
         "actionText": "Execute in Replit"
     },
     {
@@ -328,8 +328,8 @@ const PROJECT_DATA = [
         "category": "Cpp",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Cpp-Projects/Expert/Trading-Simulator",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Cpp-Projects%2FExpert%2FTrading-Simulator&title=Trading%20Simulator&name=Trading%20Simulator",
+        "path": "cpp-projects/expert/trading-simulator",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=cpp-projects%2Fexpert%2Ftrading-simulator",
         "actionText": "Execute in Replit"
     },
     {
@@ -337,8 +337,8 @@ const PROJECT_DATA = [
         "category": "Cpp",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Cpp-Projects/Hard/Bank-Management",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Cpp-Projects%2FHard%2FBank-Management&title=Bank%20Management&name=Bank%20Management",
+        "path": "cpp-projects/hard/bank-management",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=cpp-projects%2Fhard%2Fbank-management",
         "actionText": "Execute in Replit"
     },
     {
@@ -346,8 +346,8 @@ const PROJECT_DATA = [
         "category": "Cpp",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Cpp-Projects/Hard/College Management System",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Cpp-Projects%2FHard%2FCollege%20Management%20System&title=College%20Management%20System&name=College%20Management%20System",
+        "path": "cpp-projects/hard/college-management-system",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=cpp-projects%2Fhard%2Fcollege-management-system",
         "actionText": "Execute in Replit"
     },
     {
@@ -355,8 +355,8 @@ const PROJECT_DATA = [
         "category": "Cpp",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Cpp-Projects/Medium/Scientific Calculator",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Cpp-Projects%2FMedium%2FScientific%20Calculator&title=Scientific%20Calculator&name=Scientific%20Calculator",
+        "path": "cpp-projects/medium/scientific-calculator",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=cpp-projects%2Fmedium%2Fscientific-calculator",
         "actionText": "Execute in Replit"
     },
     {
@@ -364,8 +364,8 @@ const PROJECT_DATA = [
         "category": "Cpp",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Cpp-Projects/Medium/Student-Grade-System",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Cpp-Projects%2FMedium%2FStudent-Grade-System&title=Student%20Grade%20System&name=Student%20Grade%20System",
+        "path": "cpp-projects/medium/student-grade-system",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=cpp-projects%2Fmedium%2Fstudent-grade-system",
         "actionText": "Execute in Replit"
     },
     {
@@ -373,8 +373,8 @@ const PROJECT_DATA = [
         "category": "Rust",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Rust-Projects/Easy/Celsius-Fahrenheit",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Rust-Projects%2FEasy%2FCelsius-Fahrenheit&title=Celsius-Fahrenheit&name=Celsius-Fahrenheit",
+        "path": "rust-projects/easy/celsius-fahrenheit",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=rust-projects%2Feasy%2Fcelsius-fahrenheit",
         "actionText": "Execute in Replit"
     },
     {
@@ -382,8 +382,8 @@ const PROJECT_DATA = [
         "category": "Rust",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Rust-Projects/Easy/Guessing-Game",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Rust-Projects%2FEasy%2FGuessing-Game&title=Guessing-Game&name=Guessing-Game",
+        "path": "rust-projects/easy/guessing-game",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=rust-projects%2Feasy%2Fguessing-game",
         "actionText": "Execute in Replit"
     },
     {
@@ -391,8 +391,8 @@ const PROJECT_DATA = [
         "category": "Rust",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Rust-Projects/Expert/Async-Executor",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Rust-Projects%2FExpert%2FAsync-Executor&title=Async-Executor&name=Async-Executor",
+        "path": "rust-projects/expert/async-executor",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=rust-projects%2Fexpert%2Fasync-executor",
         "actionText": "Execute in Replit"
     },
     {
@@ -400,8 +400,8 @@ const PROJECT_DATA = [
         "category": "Rust",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Rust-Projects/Expert/Blockchain-Rust",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Rust-Projects%2FExpert%2FBlockchain-Rust&title=Blockchain-Rust&name=Blockchain-Rust",
+        "path": "rust-projects/expert/blockchain-rust",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=rust-projects%2Fexpert%2Fblockchain-rust",
         "actionText": "Execute in Replit"
     },
     {
@@ -409,8 +409,8 @@ const PROJECT_DATA = [
         "category": "Rust",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Rust-Projects/Hard/Chat-Server",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Rust-Projects%2FHard%2FChat-Server&title=Chat-Server&name=Chat-Server",
+        "path": "rust-projects/hard/chat-server",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=rust-projects%2Fhard%2Fchat-server",
         "actionText": "Execute in Replit"
     },
     {
@@ -418,8 +418,8 @@ const PROJECT_DATA = [
         "category": "Rust",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Rust-Projects/Hard/File-Compressor",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Rust-Projects%2FHard%2FFile-Compressor&title=File-Compressor&name=File-Compressor",
+        "path": "rust-projects/hard/file-compressor",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=rust-projects%2Fhard%2Ffile-compressor",
         "actionText": "Execute in Replit"
     },
     {
@@ -427,8 +427,8 @@ const PROJECT_DATA = [
         "category": "Rust",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Rust-Projects/Medium/Calculator",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Rust-Projects%2FMedium%2FCalculator&title=Calculator&name=Calculator",
+        "path": "rust-projects/medium/calculator",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=rust-projects%2Fmedium%2Fcalculator",
         "actionText": "Execute in Replit"
     },
     {
@@ -436,8 +436,8 @@ const PROJECT_DATA = [
         "category": "Rust",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Rust-Projects/Medium/ToDo-CLI",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Rust-Projects%2FMedium%2FToDo-CLI&title=ToDo-CLI&name=ToDo-CLI",
+        "path": "rust-projects/medium/to-do-cli",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=rust-projects%2Fmedium%2Fto-do-cli",
         "actionText": "Execute in Replit"
     },
     {
@@ -445,8 +445,8 @@ const PROJECT_DATA = [
         "category": "Go",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Go-Projects/Easy/Hello-Server",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Go-Projects%2FEasy%2FHello-Server&title=Hello%20Server&name=Hello%20Server",
+        "path": "go-projects/easy/hello-server",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=go-projects%2Feasy%2Fhello-server",
         "actionText": "Execute in Replit"
     },
     {
@@ -454,8 +454,8 @@ const PROJECT_DATA = [
         "category": "Go",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Go-Projects/Easy/Number-Guess",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Go-Projects%2FEasy%2FNumber-Guess&title=Number%20Guess&name=Number%20Guess",
+        "path": "go-projects/easy/number-guess",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=go-projects%2Feasy%2Fnumber-guess",
         "actionText": "Execute in Replit"
     },
     {
@@ -463,8 +463,8 @@ const PROJECT_DATA = [
         "category": "Go",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Go-Projects/Expert/K8s-Controller",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Go-Projects%2FExpert%2FK8s-Controller&title=K8s%20Controller&name=K8s%20Controller",
+        "path": "go-projects/expert/k8s-controller",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=go-projects%2Fexpert%2Fk8s-controller",
         "actionText": "Execute in Replit"
     },
     {
@@ -472,8 +472,8 @@ const PROJECT_DATA = [
         "category": "Go",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Go-Projects/Expert/Microservice-Mesh",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Go-Projects%2FExpert%2FMicroservice-Mesh&title=Microservice%20Mesh&name=Microservice%20Mesh",
+        "path": "go-projects/expert/microservice-mesh",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=go-projects%2Fexpert%2Fmicroservice-mesh",
         "actionText": "Execute in Replit"
     },
     {
@@ -481,8 +481,8 @@ const PROJECT_DATA = [
         "category": "Go",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Go-Projects/Hard/Distributed-Cache",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Go-Projects%2FHard%2FDistributed-Cache&title=Distributed%20Cache&name=Distributed%20Cache",
+        "path": "go-projects/hard/distributed-cache",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=go-projects%2Fhard%2Fdistributed-cache",
         "actionText": "Execute in Replit"
     },
     {
@@ -490,8 +490,8 @@ const PROJECT_DATA = [
         "category": "Go",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Go-Projects/Hard/Load-Balancer",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Go-Projects%2FHard%2FLoad-Balancer&title=Load%20Balancer&name=Load%20Balancer",
+        "path": "go-projects/hard/load-balancer",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=go-projects%2Fhard%2Fload-balancer",
         "actionText": "Execute in Replit"
     },
     {
@@ -499,8 +499,8 @@ const PROJECT_DATA = [
         "category": "Go",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Go-Projects/Medium/CRUD-API",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Go-Projects%2FMedium%2FCRUD-API&title=CRUD%20API&name=CRUD%20API",
+        "path": "go-projects/medium/crud-api",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=go-projects%2Fmedium%2Fcrud-api",
         "actionText": "Execute in Replit"
     },
     {
@@ -508,8 +508,8 @@ const PROJECT_DATA = [
         "category": "Go",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Go-Projects/Medium/Slack-Bot",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Go-Projects%2FMedium%2FSlack-Bot&title=Slack%20Bot&name=Slack%20Bot",
+        "path": "go-projects/medium/slack-bot",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=go-projects%2Fmedium%2Fslack-bot",
         "actionText": "Execute in Replit"
     },
     {
@@ -517,8 +517,8 @@ const PROJECT_DATA = [
         "category": "CSharp",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "CSharp-Projects/Easy/Console-Calculator",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=CSharp-Projects%2FEasy%2FConsole-Calculator&title=Console%20Calculator&name=Console%20Calculator",
+        "path": "csharp-projects/easy/console-calculator",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=csharp-projects%2Feasy%2Fconsole-calculator",
         "actionText": "Execute in Replit"
     },
     {
@@ -526,8 +526,8 @@ const PROJECT_DATA = [
         "category": "CSharp",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "CSharp-Projects/Easy/Number-Guess",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=CSharp-Projects%2FEasy%2FNumber-Guess&title=Number%20Guess&name=Number%20Guess",
+        "path": "csharp-projects/easy/number-guess",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=csharp-projects%2Feasy%2Fnumber-guess",
         "actionText": "Execute in Replit"
     },
     {
@@ -535,8 +535,8 @@ const PROJECT_DATA = [
         "category": "CSharp",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "CSharp-Projects/Expert/Ecommerce-Backend",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=CSharp-Projects%2FExpert%2FEcommerce-Backend&title=Ecommerce%20Backend&name=Ecommerce%20Backend",
+        "path": "csharp-projects/expert/ecommerce-backend",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=csharp-projects%2Fexpert%2Fecommerce-backend",
         "actionText": "Execute in Replit"
     },
     {
@@ -544,8 +544,8 @@ const PROJECT_DATA = [
         "category": "CSharp",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "CSharp-Projects/Expert/Stock-Simulator",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=CSharp-Projects%2FExpert%2FStock-Simulator&title=Stock%20Simulator&name=Stock%20Simulator",
+        "path": "csharp-projects/expert/stock-simulator",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=csharp-projects%2Fexpert%2Fstock-simulator",
         "actionText": "Execute in Replit"
     },
     {
@@ -553,8 +553,8 @@ const PROJECT_DATA = [
         "category": "CSharp",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "CSharp-Projects/Hard/Chat-App",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=CSharp-Projects%2FHard%2FChat-App&title=Chat%20App&name=Chat%20App",
+        "path": "csharp-projects/hard/chat-app",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=csharp-projects%2Fhard%2Fchat-app",
         "actionText": "Execute in Replit"
     },
     {
@@ -562,8 +562,8 @@ const PROJECT_DATA = [
         "category": "CSharp",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "CSharp-Projects/Hard/Inventory-System",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=CSharp-Projects%2FHard%2FInventory-System&title=Inventory%20System&name=Inventory%20System",
+        "path": "csharp-projects/hard/inventory-system",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=csharp-projects%2Fhard%2Finventory-system",
         "actionText": "Execute in Replit"
     },
     {
@@ -571,8 +571,8 @@ const PROJECT_DATA = [
         "category": "CSharp",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "CSharp-Projects/Medium/Expense-Tracker",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=CSharp-Projects%2FMedium%2FExpense-Tracker&title=Expense%20Tracker&name=Expense%20Tracker",
+        "path": "csharp-projects/medium/expense-tracker",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=csharp-projects%2Fmedium%2Fexpense-tracker",
         "actionText": "Execute in Replit"
     },
     {
@@ -580,8 +580,8 @@ const PROJECT_DATA = [
         "category": "Typescript",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Typescript-Projects/Easy/TS-Calculator",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Typescript-Projects%2FEasy%2FTS-Calculator&title=TS%20Calculator&name=TS%20Calculator",
+        "path": "typescript-projects/easy/ts-calculator",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=typescript-projects%2Feasy%2Fts-calculator",
         "actionText": "Execute in Replit"
     },
     {
@@ -589,8 +589,8 @@ const PROJECT_DATA = [
         "category": "Typescript",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Typescript-Projects/Easy/TS-ToDo-CLI",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Typescript-Projects%2FEasy%2FTS-ToDo-CLI&title=TS%20ToDo%20CLI&name=TS%20ToDo%20CLI",
+        "path": "typescript-projects/easy/ts-to-do-cli",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=typescript-projects%2Feasy%2Fts-to-do-cli",
         "actionText": "Execute in Replit"
     },
     {
@@ -598,8 +598,8 @@ const PROJECT_DATA = [
         "category": "Typescript",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Typescript-Projects/Expert/Compiler-Transpiler",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Typescript-Projects%2FExpert%2FCompiler-Transpiler&title=Compiler%20Transpiler&name=Compiler%20Transpiler",
+        "path": "typescript-projects/expert/compiler-transpiler",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=typescript-projects%2Fexpert%2Fcompiler-transpiler",
         "actionText": "Execute in Replit"
     },
     {
@@ -607,8 +607,8 @@ const PROJECT_DATA = [
         "category": "Typescript",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Typescript-Projects/Expert/GraphQL-Federation",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Typescript-Projects%2FExpert%2FGraphQL-Federation&title=GraphQL%20Federation&name=GraphQL%20Federation",
+        "path": "typescript-projects/expert/graph-ql-federation",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=typescript-projects%2Fexpert%2Fgraph-ql-federation",
         "actionText": "Execute in Replit"
     },
     {
@@ -616,8 +616,8 @@ const PROJECT_DATA = [
         "category": "Typescript",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Typescript-Projects/Hard/NestJS-Blog",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Typescript-Projects%2FHard%2FNestJS-Blog&title=NestJS%20Blog&name=NestJS%20Blog",
+        "path": "typescript-projects/hard/nest-js-blog",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=typescript-projects%2Fhard%2Fnest-js-blog",
         "actionText": "Execute in Replit"
     },
     {
@@ -625,8 +625,8 @@ const PROJECT_DATA = [
         "category": "Typescript",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Typescript-Projects/Medium/Express-TS-API",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Typescript-Projects%2FMedium%2FExpress-TS-API&title=Express%20TS%20API&name=Express%20TS%20API",
+        "path": "typescript-projects/medium/express-ts-api",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=typescript-projects%2Fmedium%2Fexpress-ts-api",
         "actionText": "Execute in Replit"
     },
     {
@@ -634,8 +634,8 @@ const PROJECT_DATA = [
         "category": "Nodejs",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Nodejs-Projects/Easy/File-Metadata",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Nodejs-Projects%2FEasy%2FFile-Metadata&title=File%20Metadata&name=File%20Metadata",
+        "path": "nodejs-projects/easy/file-metadata",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=nodejs-projects%2Feasy%2Ffile-metadata",
         "actionText": "Execute in Replit"
     },
     {
@@ -643,8 +643,8 @@ const PROJECT_DATA = [
         "category": "Nodejs",
         "difficulty": "Easy",
         "type": "Backend / CLI",
-        "path": "Nodejs-Projects/Easy/Timestamp-API",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Nodejs-Projects%2FEasy%2FTimestamp-API&title=Timestamp%20API&name=Timestamp%20API",
+        "path": "nodejs-projects/easy/timestamp-api",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=nodejs-projects%2Feasy%2Ftimestamp-api",
         "actionText": "Execute in Replit"
     },
     {
@@ -652,8 +652,8 @@ const PROJECT_DATA = [
         "category": "Nodejs",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Nodejs-Projects/Expert/Real-Time-Chat",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Nodejs-Projects%2FExpert%2FReal-Time-Chat&title=Real%20Time%20Chat&name=Real%20Time%20Chat",
+        "path": "nodejs-projects/expert/real-time-chat",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=nodejs-projects%2Fexpert%2Freal-time-chat",
         "actionText": "Execute in Replit"
     },
     {
@@ -661,8 +661,8 @@ const PROJECT_DATA = [
         "category": "Nodejs",
         "difficulty": "Expert",
         "type": "Backend / CLI",
-        "path": "Nodejs-Projects/Expert/Video-Streaming-Server",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Nodejs-Projects%2FExpert%2FVideo-Streaming-Server&title=Video%20Streaming%20Server&name=Video%20Streaming%20Server",
+        "path": "nodejs-projects/expert/video-streaming-server",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=nodejs-projects%2Fexpert%2Fvideo-streaming-server",
         "actionText": "Execute in Replit"
     },
     {
@@ -670,8 +670,8 @@ const PROJECT_DATA = [
         "category": "Nodejs",
         "difficulty": "Hard",
         "type": "Backend / CLI",
-        "path": "Nodejs-Projects/Hard/Blog-API",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Nodejs-Projects%2FHard%2FBlog-API&title=Blog%20API&name=Blog%20API",
+        "path": "nodejs-projects/hard/blog-api",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=nodejs-projects%2Fhard%2Fblog-api",
         "actionText": "Execute in Replit"
     },
     {
@@ -679,8 +679,8 @@ const PROJECT_DATA = [
         "category": "Nodejs",
         "difficulty": "Medium",
         "type": "Backend / CLI",
-        "path": "Nodejs-Projects/Medium/URL-Shortener",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=Nodejs-Projects%2FMedium%2FURL-Shortener&title=URL%20Shortener&name=URL%20Shortener",
+        "path": "nodejs-projects/medium/url-shortener",
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=nodejs-projects%2Fmedium%2Furl-shortener",
         "actionText": "Execute in Replit"
     },
     {
@@ -688,7 +688,7 @@ const PROJECT_DATA = [
         "category": "Javascript",
         "difficulty": "Easy",
         "type": "Frontend UI",
-        "path": "Javascript-Projects/Easy/Personal-Portfolio",
+        "path": "javascript-projects/easy/personal-portfolio",
         "actionUrl": "Javascript-Projects/Easy/Personal-Portfolio/index.html?title=Personal%20Portfolio",
         "actionText": "Launch Interface"
     },
@@ -697,7 +697,7 @@ const PROJECT_DATA = [
         "category": "Javascript",
         "difficulty": "Easy",
         "type": "Frontend UI",
-        "path": "Javascript-Projects/Easy/Quiz Page",
+        "path": "javascript-projects/easy/quiz-page",
         "actionUrl": "Javascript-Projects/Easy/Quiz Page/index.html?title=Quiz%20Page",
         "actionText": "Launch Interface"
     },
@@ -706,7 +706,7 @@ const PROJECT_DATA = [
         "category": "Javascript",
         "difficulty": "Expert",
         "type": "Frontend UI",
-        "path": "Javascript-Projects/Expert/Kanban-Board",
+        "path": "javascript-projects/expert/kanban-board",
         "actionUrl": "Javascript-Projects/Expert/Kanban-Board/index.html?title=Kanban%20Board",
         "actionText": "Launch Interface"
     },
@@ -715,7 +715,7 @@ const PROJECT_DATA = [
         "category": "Javascript",
         "difficulty": "Hard",
         "type": "Frontend UI",
-        "path": "Javascript-Projects/Hard/Furnicto",
+        "path": "javascript-projects/hard/furnicto",
         "actionUrl": "Javascript-Projects/Hard/Furnicto/index.html?title=Furnicto",
         "actionText": "Launch Interface"
     },
@@ -724,7 +724,7 @@ const PROJECT_DATA = [
         "category": "Javascript",
         "difficulty": "Hard",
         "type": "Frontend UI",
-        "path": "Javascript-Projects/Hard/Weather-Dashboard",
+        "path": "javascript-projects/hard/weather-dashboard",
         "actionUrl": "Javascript-Projects/Hard/Weather-Dashboard/index.html?title=Weather%20Dashboard",
         "actionText": "Launch Interface"
     },
@@ -733,7 +733,7 @@ const PROJECT_DATA = [
         "category": "Javascript",
         "difficulty": "Medium",
         "type": "Frontend UI",
-        "path": "Javascript-Projects/Medium/Decibell",
+        "path": "javascript-projects/medium/decibell",
         "actionUrl": "Javascript-Projects/Medium/Decibell/index.html?title=Decibell",
         "actionText": "Launch Interface"
     },
@@ -742,7 +742,7 @@ const PROJECT_DATA = [
         "category": "Javascript",
         "difficulty": "Medium",
         "type": "Frontend UI",
-        "path": "Javascript-Projects/Medium/Task-Manager",
+        "path": "javascript-projects/medium/task-manager",
         "actionUrl": "Javascript-Projects/Medium/Task-Manager/index.html?title=Task%20Manager",
         "actionText": "Launch Interface"
     }

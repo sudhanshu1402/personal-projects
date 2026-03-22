@@ -14,11 +14,11 @@ These projects demonstrate production-grade system design, concurrency patterns,
 
 | Artifact | Core Stack | Architectural Highlights |
 | :--- | :--- | :--- |
-| **[Layer 7 Load Balancer](./Go-Projects/Hard/Load-Balancer)** | `Go` | Round-robin distribution, health-check polling, concurrency-safe pools. |
-| **[Async Executor](./Rust-Projects/Expert/Async-Executor)** | `Rust` | Custom future polling, Waker-based scheduling, lock-free task queues. |
-| **[Memory Allocator](./Cpp-Projects/Expert/Memory-Allocator)** | `C++` | Slab allocation, buddy system logic, pointer arithmetic optimization. |
-| **[Streaming Engine](./Nodejs-Projects/Expert/Video-Streaming-Server)** | `Node.js` | HTTP Range request handling, buffer stream piping, chunked encoding. |
-| **[Microservices Mesh](./Java-Projects/Expert/Microservices-Demo)** | `Java` | Eureka service discovery, API Gateway orchestration, circuit breaking. |
+| **[Layer 7 Load Balancer](./go-projects/hard/load-balancer)** | `Go` | Round-robin distribution, health-check polling, concurrency-safe pools. |
+| **[Async Executor](./rust-projects/expert/async-executor)** | `Rust` | Custom future polling, Waker-based scheduling, lock-free task queues. |
+| **[Memory Allocator](./cpp-projects/expert/memory-allocator)** | `C++` | Slab allocation, buddy system logic, pointer arithmetic optimization. |
+| **[Streaming Engine](./nodejs-projects/expert/video-streaming-server)** | `Node.js` | HTTP Range request handling, buffer stream piping, chunked encoding. |
+| **[Microservices Mesh](./java-projects/expert/microservices-demo)** | `Java` | Eureka service discovery, API Gateway orchestration, circuit breaking. |
 
 ---
 
@@ -26,12 +26,12 @@ These projects demonstrate production-grade system design, concurrency patterns,
 
 The vault is organized by language and technical complexity, ensuring a clean separation of concerns.
 
-- **[Go-Projects](./Go-Projects)**: Distributed systems, CLI tools, and network infrastructure.
-- **[Rust-Projects](./Rust-Projects)**: Memory-safe systems, blockchain logic, and async utilities.
-- **[Cpp-Projects](./Cpp-Projects)**: Low-level engines, memory management, and performance-critical apps.
-- **[Java-Projects](./Java-Projects)**: Enterprise patterns, microservices, and management systems.
-- **[Javascript/Typescript](./Javascript-Projects)**: Rich UIs, GraphQL federation, and full-stack frameworks.
-- **[Python-Projects](./Python-Projects)**: Machine learning, automation scripts, and rapid prototyping.
+- **[go-projects](./go-projects)**: Distributed systems, CLI tools, and network infrastructure.
+- **[rust-projects](./rust-projects)**: Memory-safe systems, blockchain logic, and async utilities.
+- **[cpp-projects](./cpp-projects)**: Low-level engines, memory management, and performance-critical apps.
+- **[java-projects](./java-projects)**: Enterprise patterns, microservices, and management systems.
+- **[Javascript/Typescript](./javascript-projects)**: Rich UIs, GraphQL federation, and full-stack frameworks.
+- **[python-projects](./python-projects)**: Machine learning, automation scripts, and rapid prototyping.
 
 ---
 
