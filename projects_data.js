@@ -41,8 +41,8 @@ const PROJECT_DATA = [
         "difficulty": "Expert",
         "type": "Backend / CLI",
         "path": "python-projects/expert/color-detection",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fexpert%2Fcolor-detection",
-        "actionText": "Execute in Replit"
+        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/python-projects/expert/color-detection",
+        "actionText": "View Source Code"
     },
     {
         "name": "Gender & Age Detection",
@@ -50,8 +50,8 @@ const PROJECT_DATA = [
         "difficulty": "Expert",
         "type": "Backend / CLI",
         "path": "python-projects/expert/gender-&-age-detection",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fexpert%2Fgender-%26-age-detection",
-        "actionText": "Execute in Replit"
+        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/python-projects/expert/gender-&-age-detection",
+        "actionText": "View Source Code"
     },
     {
         "name": "Keyboard Jump Game",
@@ -59,8 +59,8 @@ const PROJECT_DATA = [
         "difficulty": "Expert",
         "type": "Backend / CLI",
         "path": "python-projects/expert/keyboard-jump-game",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fexpert%2Fkeyboard-jump-game",
-        "actionText": "Execute in Replit"
+        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/python-projects/expert/keyboard-jump-game",
+        "actionText": "View Source Code"
     },
     {
         "name": "Fruit Ninja Game",
@@ -68,8 +68,8 @@ const PROJECT_DATA = [
         "difficulty": "Hard",
         "type": "Backend / CLI",
         "path": "python-projects/hard/fruit-ninja-game",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fhard%2Ffruit-ninja-game",
-        "actionText": "Execute in Replit"
+        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/python-projects/hard/fruit-ninja-game",
+        "actionText": "View Source Code"
     },
     {
         "name": "UNO",
@@ -77,8 +77,8 @@ const PROJECT_DATA = [
         "difficulty": "Hard",
         "type": "Backend / CLI",
         "path": "python-projects/hard/uno",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=python-projects%2Fhard%2Funo",
-        "actionText": "Execute in Replit"
+        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/python-projects/hard/uno",
+        "actionText": "View Source Code"
     },
     {
         "name": "2048",
@@ -149,8 +149,8 @@ const PROJECT_DATA = [
         "difficulty": "Expert",
         "type": "Backend / CLI",
         "path": "java-projects/expert/stock-trading-engine",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Fexpert%2Fstock-trading-engine",
-        "actionText": "Execute in Replit"
+        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/java-projects/expert/stock-trading-engine",
+        "actionText": "View Source Code"
     },
     {
         "name": "Mall Management System",
@@ -158,8 +158,8 @@ const PROJECT_DATA = [
         "difficulty": "Hard",
         "type": "Backend / CLI",
         "path": "java-projects/hard/mall-management-system",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Fhard%2Fmall-management-system",
-        "actionText": "Execute in Replit"
+        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/java-projects/hard/mall-management-system",
+        "actionText": "View Source Code"
     },
     {
         "name": "manageit",
@@ -167,8 +167,8 @@ const PROJECT_DATA = [
         "difficulty": "Hard",
         "type": "Backend / CLI",
         "path": "java-projects/hard/photo-manager/app/src/android-test/java/com/example/sudhanshusingh/manageit",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Fhard%2Fphoto-manager%2Fapp%2Fsrc%2Fandroid-test%2Fjava%2Fcom%2Fexample%2Fsudhanshusingh%2Fmanageit",
-        "actionText": "Execute in Replit"
+        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/java-projects/hard/photo-manager/app/src/android-test/java/com/example/sudhanshusingh/manageit",
+        "actionText": "View Source Code"
     },
     {
         "name": "manageit",
@@ -176,8 +176,8 @@ const PROJECT_DATA = [
         "difficulty": "Hard",
         "type": "Backend / CLI",
         "path": "java-projects/hard/photo-manager/app/src/main/java/com/example/sudhanshusingh/manageit",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Fhard%2Fphoto-manager%2Fapp%2Fsrc%2Fmain%2Fjava%2Fcom%2Fexample%2Fsudhanshusingh%2Fmanageit",
-        "actionText": "Execute in Replit"
+        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/java-projects/hard/photo-manager/app/src/main/java/com/example/sudhanshusingh/manageit",
+        "actionText": "View Source Code"
     },
     {
         "name": "manageit",
@@ -185,8 +185,8 @@ const PROJECT_DATA = [
         "difficulty": "Hard",
         "type": "Backend / CLI",
         "path": "java-projects/hard/photo-manager/app/src/test/java/com/example/sudhanshusingh/manageit",
-        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=java-projects%2Fhard%2Fphoto-manager%2Fapp%2Fsrc%2Ftest%2Fjava%2Fcom%2Fexample%2Fsudhanshusingh%2Fmanageit",
-        "actionText": "Execute in Replit"
+        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/java-projects/hard/photo-manager/app/src/test/java/com/example/sudhanshusingh/manageit",
+        "actionText": "View Source Code"
     },
     {
         "name": "scientificcalc",
