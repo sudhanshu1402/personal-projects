@@ -1,34 +1,17 @@
 # Kanban Board
 
-## Overview
-**Kanban Board** is a **Expert** difficulty project implemented in **JavaScript**.
+> A **Expert**-level **Javascript** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Kanban-Board
-└── index.html
+This is a **Frontend UI** application crafted using **Javascript**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Kanban-Board[Kanban-Board]
-    Kanban_Board --> index_html(index.html)
-```
+Simply open `index.html` in your preferred web browser to run this frontend application locally, or view the live preview on the portfolio.
 
-## Features
-- Implements core logic for Kanban Board.
-- Structured for scalability and readability.
-- Demonstrates **JavaScript** best practices for **Expert** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Kanban-Board
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

@@ -1,36 +1,17 @@
-# File Compressor
+# File-Compressor
 
-## Overview
-**File Compressor** is a **Hard** difficulty project implemented in **Rust**.
+> A **Hard**-level **Rust** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-File-Compressor
-├── Cargo.toml
-└── src
-    └── main.rs
+This is a **Backend / CLI** application crafted using **Rust**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    File-Compressor[File-Compressor]
-    File_Compressor --> Cargo_toml(Cargo.toml)
-```
+`cargo run` to execute or `cargo build --release` for a production binary.
 
-## Features
-- Implements core logic for File Compressor.
-- Structured for scalability and readability.
-- Demonstrates **Rust** best practices for **Hard** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd File-Compressor
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

@@ -1,36 +1,17 @@
 # Count Down Timer
 
-## Overview
-**Count Down Timer** is a **Easy** difficulty project implemented in **Python**.
+> A **Easy**-level **Python** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Count Down Timer
-├── Count Down Timer.py
-└── bell.ico
+This is a **Backend / CLI** application crafted using **Python**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Count Down Timer[Count Down Timer]
-    Count_Down_Timer --> bell_ico(bell.ico)
-    Count_Down_Timer --> Count_Down_Timer_py(Count Down Timer.py)
-```
+`python main.py` or execute the specific script.
 
-## Features
-- Implements core logic for Count Down Timer.
-- Structured for scalability and readability.
-- Demonstrates **Python** best practices for **Easy** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Count Down Timer
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

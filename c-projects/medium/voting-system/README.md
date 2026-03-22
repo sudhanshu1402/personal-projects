@@ -1,40 +1,17 @@
 # Voting System
 
-## Overview
-**Voting System** is a **Medium** difficulty project implemented in **C**.
+> A **Medium**-level **C** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Voting System
-├── Makefile.win
-├── Voting System.dev
-├── Voting System.layout
-└── main.c
+This is a **Backend / CLI** application crafted using **C**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Voting System[Voting System]
-    Voting_System --> Voting_System_dev(Voting System.dev)
-    Voting_System --> main_c(main.c)
-    Voting_System --> Voting_System_layout(Voting System.layout)
-    Voting_System --> Makefile_win(Makefile.win)
-```
+`gcc` or `g++` to compile the source code, then execute the output binary (e.g., `./a.out`).
 
-## Features
-- Implements core logic for Voting System.
-- Structured for scalability and readability.
-- Demonstrates **C** best practices for **Medium** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Voting System
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

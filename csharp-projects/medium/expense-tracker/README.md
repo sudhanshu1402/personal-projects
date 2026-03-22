@@ -1,34 +1,17 @@
 # Expense Tracker
 
-## Overview
-**Expense Tracker** is a **Medium** difficulty project implemented in **C#**.
+> A **Medium**-level **CSharp** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Expense-Tracker
-└── Program.cs
+This is a **Backend / CLI** application crafted using **CSharp**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Expense-Tracker[Expense-Tracker]
-    Expense_Tracker --> Program_cs(Program.cs)
-```
+`dotnet run` to build and execute the C# application.
 
-## Features
-- Implements core logic for Expense Tracker.
-- Structured for scalability and readability.
-- Demonstrates **C#** best practices for **Medium** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Expense-Tracker
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

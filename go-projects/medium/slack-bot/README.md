@@ -1,34 +1,17 @@
 # Slack Bot
 
-## Overview
-**Slack Bot** is a **Medium** difficulty project implemented in **Go**.
+> A **Medium**-level **Go** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Slack-Bot
-└── main.go
+This is a **Backend / CLI** application crafted using **Go**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Slack-Bot[Slack-Bot]
-    Slack_Bot --> main_go(main.go)
-```
+`go run .` or `go build` to compile the binary.
 
-## Features
-- Implements core logic for Slack Bot.
-- Structured for scalability and readability.
-- Demonstrates **Go** best practices for **Medium** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Slack-Bot
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

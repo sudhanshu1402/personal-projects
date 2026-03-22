@@ -1,34 +1,17 @@
 # Web Server
 
-## Overview
-**Web Server** is a **Expert** difficulty project implemented in **C**.
+> A **Expert**-level **C** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Web-Server
-└── main.c
+This is a **Backend / CLI** application crafted using **C**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Web-Server[Web-Server]
-    Web_Server --> main_c(main.c)
-```
+`gcc` or `g++` to compile the source code, then execute the output binary (e.g., `./a.out`).
 
-## Features
-- Implements core logic for Web Server.
-- Structured for scalability and readability.
-- Demonstrates **C** best practices for **Expert** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Web-Server
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

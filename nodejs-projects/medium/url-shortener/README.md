@@ -1,34 +1,17 @@
 # URL Shortener
 
-## Overview
-**URL Shortener** is a **Medium** difficulty project implemented in **Node.js**.
+> A **Medium**-level **Nodejs** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-URL-Shortener
-└── index.js
+This is a **Backend / CLI** application crafted using **Nodejs**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    URL-Shortener[URL-Shortener]
-    URL_Shortener --> index_js(index.js)
-```
+`npm install` then `node index.js` or `npm start`.
 
-## Features
-- Implements core logic for URL Shortener.
-- Structured for scalability and readability.
-- Demonstrates **Node.js** best practices for **Medium** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd URL-Shortener
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

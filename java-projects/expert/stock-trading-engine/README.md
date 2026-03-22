@@ -1,34 +1,17 @@
 # Stock Trading Engine
 
-## Overview
-**Stock Trading Engine** is a **Expert** difficulty project implemented in **Java**.
+> A **Expert**-level **Java** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Stock-Trading-Engine
-└── StockTradingEngine.java
+This is a **Backend / CLI** application crafted using **Java**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Stock-Trading-Engine[Stock-Trading-Engine]
-    Stock_Trading_Engine --> StockTradingEngine_java(StockTradingEngine.java)
-```
+`javac *.java` followed by `java Main` (or use Maven/Gradle if applicable).
 
-## Features
-- Implements core logic for Stock Trading Engine.
-- Structured for scalability and readability.
-- Demonstrates **Java** best practices for **Expert** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Stock-Trading-Engine
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

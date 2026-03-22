@@ -1,39 +1,17 @@
 # Quiz Page
 
-## Overview
-**Quiz Page** is a **Easy** difficulty project implemented in **JavaScript**.
+> A **Easy**-level **Javascript** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Quiz Page
-├── index.html
-├── js
-│   ├── questions.js
-│   └── script.js
-└── style.css
+This is a **Frontend UI** application crafted using **Javascript**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Quiz Page[Quiz Page]
-    Quiz_Page --> index_html(index.html)
-    Quiz_Page --> style_css(style.css)
-```
+Simply open `index.html` in your preferred web browser to run this frontend application locally, or view the live preview on the portfolio.
 
-## Features
-- Implements core logic for Quiz Page.
-- Structured for scalability and readability.
-- Demonstrates **JavaScript** best practices for **Easy** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Quiz Page
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

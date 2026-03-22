@@ -1,34 +1,17 @@
 # Express TS API
 
-## Overview
-**Express TS API** is a **Medium** difficulty project implemented in **TypeScript**.
+> A **Medium**-level **Typescript** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Express-TS-API
-└── server.ts
+This is a **Backend / CLI** application crafted using **Typescript**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Express-TS-API[Express-TS-API]
-    Express_TS_API --> server_ts(server.ts)
-```
+`npm install` then `npm run dev` or compile using `tsc`.
 
-## Features
-- Implements core logic for Express TS API.
-- Structured for scalability and readability.
-- Demonstrates **TypeScript** best practices for **Medium** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Express-TS-API
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

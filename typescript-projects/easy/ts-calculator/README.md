@@ -1,34 +1,17 @@
 # TS Calculator
 
-## Overview
-**TS Calculator** is a **Easy** difficulty project implemented in **TypeScript**.
+> A **Easy**-level **Typescript** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-TS-Calculator
-└── index.ts
+This is a **Backend / CLI** application crafted using **Typescript**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    TS-Calculator[TS-Calculator]
-    TS_Calculator --> index_ts(index.ts)
-```
+`npm install` then `npm run dev` or compile using `tsc`.
 
-## Features
-- Implements core logic for TS Calculator.
-- Structured for scalability and readability.
-- Demonstrates **TypeScript** best practices for **Easy** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd TS-Calculator
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

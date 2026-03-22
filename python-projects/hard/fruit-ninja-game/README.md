@@ -1,53 +1,17 @@
 # Fruit Ninja Game
 
-## Overview
-**Fruit Ninja Game** is a **Hard** difficulty project implemented in **Python**.
+> A **Hard**-level **Python** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Fruit Ninja Game
-├── back.jpg
-├── comic.ttf
-├── fruit_ninja.py
-└── images
-    ├── backgound.jpg
-    ├── bomb.png
-    ├── explosion.png
-    ├── game_over.png
-    ├── guava.png
-    ├── half_guava.png
-    ├── half_melon.png
-    ├── half_orange.png
-    ├── half_pomegranate.png
-    ├── melon.png
-    ├── orange.png
-    ├── pomegranate.png
-    ├── red_lives.png
-    └── white_lives.png
+This is a **Backend / CLI** application crafted using **Python**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Fruit Ninja Game[Fruit Ninja Game]
-    Fruit_Ninja_Game --> fruit_ninja_py(fruit_ninja.py)
-    Fruit_Ninja_Game --> comic_ttf(comic.ttf)
-    Fruit_Ninja_Game --> back_jpg(back.jpg)
-```
+`python main.py` or execute the specific script.
 
-## Features
-- Implements core logic for Fruit Ninja Game.
-- Structured for scalability and readability.
-- Demonstrates **Python** best practices for **Hard** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Fruit Ninja Game
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

@@ -1,36 +1,17 @@
-# Chat Server
+# Chat-Server
 
-## Overview
-**Chat Server** is a **Hard** difficulty project implemented in **Rust**.
+> A **Hard**-level **Rust** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Chat-Server
-├── Cargo.toml
-└── src
-    └── main.rs
+This is a **Backend / CLI** application crafted using **Rust**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Chat-Server[Chat-Server]
-    Chat_Server --> Cargo_toml(Cargo.toml)
-```
+`cargo run` to execute or `cargo build --release` for a production binary.
 
-## Features
-- Implements core logic for Chat Server.
-- Structured for scalability and readability.
-- Demonstrates **Rust** best practices for **Hard** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Chat-Server
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

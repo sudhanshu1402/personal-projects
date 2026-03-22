@@ -1,40 +1,17 @@
 # Simple Calculator
 
-## Overview
-**Simple Calculator** is a **Easy** difficulty project implemented in **C++**.
+> A **Easy**-level **Cpp** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Simple-Calculator
-├── Makefile.win
-├── Simple Calculator.dev
-├── Simple Calculator.layout
-└── main.cpp
+This is a **Backend / CLI** application crafted using **Cpp**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Simple-Calculator[Simple-Calculator]
-    Simple_Calculator --> Simple_Calculator_layout(Simple Calculator.layout)
-    Simple_Calculator --> Simple_Calculator_dev(Simple Calculator.dev)
-    Simple_Calculator --> main_cpp(main.cpp)
-    Simple_Calculator --> Makefile_win(Makefile.win)
-```
+`gcc` or `g++` to compile the source code, then execute the output binary (e.g., `./a.out`).
 
-## Features
-- Implements core logic for Simple Calculator.
-- Structured for scalability and readability.
-- Demonstrates **C++** best practices for **Easy** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Simple-Calculator
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

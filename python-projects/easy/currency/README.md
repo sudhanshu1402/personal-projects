@@ -1,34 +1,17 @@
 # Currency
 
-## Overview
-**Currency** is a **Easy** difficulty project implemented in **Python**.
+> A **Easy**-level **Python** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Currency
-└── Currency.py
+This is a **Backend / CLI** application crafted using **Python**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Currency[Currency]
-    Currency --> Currency_py(Currency.py)
-```
+`python main.py` or execute the specific script.
 
-## Features
-- Implements core logic for Currency.
-- Structured for scalability and readability.
-- Demonstrates **Python** best practices for **Easy** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Currency
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

@@ -1,42 +1,17 @@
 # Speed Typing Test
 
-## Overview
-**Speed Typing Test** is a **Medium** difficulty project implemented in **Python**.
+> A **Medium**-level **Python** project from [The Vault Archive](https://sudhanshu1402.github.io/personal-projects/).
 
-## 📂 Project Structure
-The following directory structure visualizes the file organization of this project.
+## 📖 Overview
 
-```text
-Speed Typing Test
-├── Speed Typing Test.py
-├── background.jpg
-├── icon.png
-├── sentences.txt
-└── type-speed-open.png
+This is a **Backend / CLI** application crafted using **Python**. It explores core concepts, architectural patterns, and practical execution within this technology stack. 
 
-```
+This project is part of a massive 83-project engineering archive. 
 
-## 📐 Components
-Visual representation of the primary files in this project:
+## 🚀 Execution
 
-```mermaid
-graph TD
-    Speed Typing Test[Speed Typing Test]
-    Speed_Typing_Test --> icon_png(icon.png)
-    Speed_Typing_Test --> background_jpg(background.jpg)
-    Speed_Typing_Test --> sentences_txt(sentences.txt)
-    Speed_Typing_Test --> type_speed_open_png(type-speed-open.png)
-    Speed_Typing_Test --> Speed_Typing_Test_py(Speed Typing Test.py)
-```
+`python main.py` or execute the specific script.
 
-## Features
-- Implements core logic for Speed Typing Test.
-- Structured for scalability and readability.
-- Demonstrates **Python** best practices for **Medium** complexity.
+---
 
-## How to Run
-1. Navigate to the project directory:
-   ```bash
-   cd Speed Typing Test
-   ```
-2. Check the source code for entry points (e.g., `main` run command).
+**[Return to The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**

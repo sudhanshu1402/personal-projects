@@ -1,9 +1,13 @@
 # THE VAULT: ENGINEERING ARCHIVE
 
+> ### 🛑 STOP & VIEW THE LIVE PORTFOLIO 🛑
+> **This repository is best viewed through its custom interactive frontend.**
+> **👉 [Launch The Vault Portfolio ➔](https://sudhanshu1402.github.io/personal-projects/)**
+
+---
+
 [![CI Status](https://github.com/sudhanshu1402/personal-projects/actions/workflows/ci.yml/badge.svg)](https://github.com/sudhanshu1402/personal-projects/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Portfolio](https://img.shields.io/badge/Live_Archive-Launch-4F46E5?style=for-the-badge)](https://sudhanshu1402.github.io/personal-projects/)
-
 Welcome to **The Vault**. This repository is a performance-driven archive of 83 historical projects decoded across 10 programming languages. From low-level memory allocators in C++ to distributed systems in Go and complex React ecosystems.
 
 ---
