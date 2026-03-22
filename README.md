@@ -37,7 +37,7 @@ The vault is organized by language and technical complexity, ensuring a clean se
 
 ## 🚀 Instant Deployment (Zero-Config)
 
-Every backend artifact in this archive is **Replit-ready**. Click the **Launch** badge in the interactive portfolio to spin up an isolated cloud container. Replit automatically provisions the environment and executes the logic directly in your browser.
+Every artifact in this archive is designed for instant exploration. Frontend projects feature **Live Previews** running directly via GitHub Pages, while backend and CLI systems link straight to their **Source Directories** for clean code reading and local execution.
 
 **[Launch the Interactive Vault ➔](https://sudhanshu1402.github.io/personal-projects/)**
 
