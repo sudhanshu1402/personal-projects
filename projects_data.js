@@ -689,8 +689,8 @@ const PROJECT_DATA = [
         "difficulty": "Easy",
         "type": "Frontend UI",
         "path": "javascript-projects/easy/personal-portfolio",
-        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/javascript-projects/easy/personal-portfolio",
-        "actionText": "View Source Code"
+        "actionUrl": "https://sudhanshu1402.github.io/personal-projects/javascript-projects/easy/personal-portfolio/index.html",
+        "actionText": "Open Live Preview"
     },
     {
         "name": "Quiz Page",
@@ -698,8 +698,8 @@ const PROJECT_DATA = [
         "difficulty": "Easy",
         "type": "Frontend UI",
         "path": "javascript-projects/easy/quiz-page",
-        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/javascript-projects/easy/quiz-page",
-        "actionText": "View Source Code"
+        "actionUrl": "https://sudhanshu1402.github.io/personal-projects/javascript-projects/easy/quiz-page/index.html",
+        "actionText": "Open Live Preview"
     },
     {
         "name": "Kanban Board",
@@ -707,8 +707,8 @@ const PROJECT_DATA = [
         "difficulty": "Expert",
         "type": "Frontend UI",
         "path": "javascript-projects/expert/kanban-board",
-        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/javascript-projects/expert/kanban-board",
-        "actionText": "View Source Code"
+        "actionUrl": "https://sudhanshu1402.github.io/personal-projects/javascript-projects/expert/kanban-board/index.html",
+        "actionText": "Open Live Preview"
     },
     {
         "name": "Furnicto",
@@ -716,8 +716,8 @@ const PROJECT_DATA = [
         "difficulty": "Hard",
         "type": "Frontend UI",
         "path": "javascript-projects/hard/furnicto",
-        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/javascript-projects/hard/furnicto",
-        "actionText": "View Source Code"
+        "actionUrl": "https://sudhanshu1402.github.io/personal-projects/javascript-projects/hard/furnicto/index.html",
+        "actionText": "Open Live Preview"
     },
     {
         "name": "Weather Dashboard",
@@ -725,8 +725,8 @@ const PROJECT_DATA = [
         "difficulty": "Hard",
         "type": "Frontend UI",
         "path": "javascript-projects/hard/weather-dashboard",
-        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/javascript-projects/hard/weather-dashboard",
-        "actionText": "View Source Code"
+        "actionUrl": "https://sudhanshu1402.github.io/personal-projects/javascript-projects/hard/weather-dashboard/index.html",
+        "actionText": "Open Live Preview"
     },
     {
         "name": "Decibell",
@@ -743,7 +743,7 @@ const PROJECT_DATA = [
         "difficulty": "Medium",
         "type": "Frontend UI",
         "path": "javascript-projects/medium/task-manager",
-        "actionUrl": "https://github.com/sudhanshu1402/personal-projects/tree/main/javascript-projects/medium/task-manager",
-        "actionText": "View Source Code"
+        "actionUrl": "https://sudhanshu1402.github.io/personal-projects/javascript-projects/medium/task-manager/index.html",
+        "actionText": "Open Live Preview"
     }
 ];
