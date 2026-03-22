@@ -28,7 +28,7 @@ jobs:
         run: |
           mkdir _gh_pages
           # Copy the JS projects preserving structure
-          cp -r Javascript-Projects _gh_pages/
+          cp -r javascript-projects _gh_pages/
           # Copy the stunning new Web UI directory portal
           cp index.html _gh_pages/
           cp projects_data.js _gh_pages/

@@ -25,7 +25,7 @@ jobs:
     - name: Install Node Dependencies
       if: matrix.language == 'javascript'
       run: |
-        cd Javascript-Projects
+        cd javascript-projects
         # Add basic install/test logic here if valid package.json exists
         echo "Validating JS Projects..."
 
@@ -38,5 +38,5 @@ jobs:
     - name: Build Go Projects
       if: matrix.language == 'go'
       run: |
-        cd Go-Projects/Hard/Load-Balancer
+        cd go-projects/hard/load-balancer
         go build -v ./...
