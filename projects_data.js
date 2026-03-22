@@ -689,8 +689,8 @@ const PROJECT_DATA = [
         "difficulty": "Easy",
         "type": "Frontend UI",
         "path": "javascript-projects/easy/personal-portfolio",
-        "actionUrl": "javascript-projects/easy/personal-portfolio/index.html?title=Personal%20Portfolio",
-        "actionText": "Launch Interface"
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=javascript-projects/easy/personal-portfolio",
+        "actionText": "Execute in Replit"
     },
     {
         "name": "Quiz Page",
@@ -698,8 +698,8 @@ const PROJECT_DATA = [
         "difficulty": "Easy",
         "type": "Frontend UI",
         "path": "javascript-projects/easy/quiz-page",
-        "actionUrl": "javascript-projects/easy/quiz-page/index.html?title=Quiz%20Page",
-        "actionText": "Launch Interface"
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=javascript-projects/easy/quiz-page",
+        "actionText": "Execute in Replit"
     },
     {
         "name": "Kanban Board",
@@ -707,8 +707,8 @@ const PROJECT_DATA = [
         "difficulty": "Expert",
         "type": "Frontend UI",
         "path": "javascript-projects/expert/kanban-board",
-        "actionUrl": "javascript-projects/expert/kanban-board/index.html?title=Kanban%20Board",
-        "actionText": "Launch Interface"
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=javascript-projects/expert/kanban-board",
+        "actionText": "Execute in Replit"
     },
     {
         "name": "Furnicto",
@@ -716,8 +716,8 @@ const PROJECT_DATA = [
         "difficulty": "Hard",
         "type": "Frontend UI",
         "path": "javascript-projects/hard/furnicto",
-        "actionUrl": "javascript-projects/hard/furnicto/index.html?title=Furnicto",
-        "actionText": "Launch Interface"
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=javascript-projects/hard/furnicto",
+        "actionText": "Execute in Replit"
     },
     {
         "name": "Weather Dashboard",
@@ -725,8 +725,8 @@ const PROJECT_DATA = [
         "difficulty": "Hard",
         "type": "Frontend UI",
         "path": "javascript-projects/hard/weather-dashboard",
-        "actionUrl": "javascript-projects/hard/weather-dashboard/index.html?title=Weather%20Dashboard",
-        "actionText": "Launch Interface"
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=javascript-projects/hard/weather-dashboard",
+        "actionText": "Execute in Replit"
     },
     {
         "name": "Decibell",
@@ -734,8 +734,8 @@ const PROJECT_DATA = [
         "difficulty": "Medium",
         "type": "Frontend UI",
         "path": "javascript-projects/medium/decibell",
-        "actionUrl": "javascript-projects/medium/decibell/index.html?title=Decibell",
-        "actionText": "Launch Interface"
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=javascript-projects/medium/decibell",
+        "actionText": "Execute in Replit"
     },
     {
         "name": "Task Manager",
@@ -743,7 +743,7 @@ const PROJECT_DATA = [
         "difficulty": "Medium",
         "type": "Frontend UI",
         "path": "javascript-projects/medium/task-manager",
-        "actionUrl": "javascript-projects/medium/task-manager/index.html?title=Task%20Manager",
-        "actionText": "Launch Interface"
+        "actionUrl": "https://replit.com/github/sudhanshu1402/personal-projects?folder=javascript-projects/medium/task-manager",
+        "actionText": "Execute in Replit"
     }
 ];
