@@ -13,8 +13,35 @@ dist/
 build/
 out/
 
-# Editors
-.vscode/
-.idea/
-*.swp
-ML_Projects/subconscious-robotics/.venv/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv*/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+
+# Java / Android
+*.class
+*.dex
+*.apk
+*.aar
+*.ap_
+.gradle/
+local.properties
+.externalNativeBuild
+.cxx/
+captures/
+
+# Go
+bin/
+vendor/
+
+# Rust
+target/
+Cargo.lock
