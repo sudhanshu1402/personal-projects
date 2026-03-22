@@ -3,91 +3,364 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- FontAweome CDN Link for Icons-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
+    <title>Cyber Quiz Protocol</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+    <!-- Original CSS linkage removed to prevent generic styles from breaking the extreme overhaul -->
+    <style>
+        :root {
+            --neon-blue: #0ff;
+            --neon-pink: #f0f;
+            --dark-bg: #090a0f;
+            --panel-bg: rgba(16, 18, 27, 0.85);
+            --text-main: #e0e6ed;
+        }
+
+        * {
+            margin: 0; padding: 0; box-sizing: border-box;
+            font-family: 'Rajdhani', sans-serif;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(0, 255, 255, 0.08), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(255, 0, 255, 0.08), transparent 25%);
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Generic Box Overrides */
+        .info_box, .quiz_box, .result_box {
+            background: var(--panel-bg);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            border-radius: 4px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.1), inset 0 0 20px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 600px;
+            padding: 2rem;
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            backdrop-filter: blur(10px);
+        }
+
+        /* The JS adds 'activeInfo', 'activeQuiz', 'activeResult' to show them */
+        .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult {
+            opacity: 1;
+            z-index: 5;
+            pointer-events: auto;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        /* Start Button */
+        .start_btn {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .start_btn button, .buttons button, .next_btn {
+            background: transparent;
+            color: var(--neon-blue);
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 1rem 3rem;
+            border: 1px solid var(--neon-blue);
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 255, 255, 0.2), inset 0 0 10px rgba(0, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .start_btn button::before, .buttons button::before, .next_btn::before {
+            content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0,255,255,0.4), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .start_btn button:hover, .buttons button:hover, .next_btn:hover {
+            background: var(--neon-blue);
+            color: var(--dark-bg);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.6);
+        }
+        .start_btn button:hover::before, .buttons button:hover::before, .next_btn:hover::before {
+            left: 100%;
+        }
+
+        /* Info Box Specifics */
+        .info-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--neon-pink);
+            border-bottom: 1px solid rgba(255,0,255,0.3);
+            padding-bottom: 1rem;
+            margin-bottom: 1.5rem;
+            text-shadow: 0 0 10px rgba(255,0,255,0.5);
+            text-transform: uppercase;
+        }
+
+        .info-list .info {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #ccc;
+        }
+        
+        .info-list .info span {
+            color: var(--neon-blue);
+            font-weight: 700;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+            margin-top: 2rem;
+            border-top: 1px solid rgba(0,255,255,0.2);
+            padding-top: 1.5rem;
+        }
+        
+        .buttons .quit {
+            color: var(--neon-pink);
+            border-color: var(--neon-pink);
+            box-shadow: 0 0 10px rgba(255, 0, 255, 0.2), inset 0 0 10px rgba(255, 0, 255, 0.1);
+        }
+        .buttons .quit:hover {
+            background: var(--neon-pink);
+            color: var(--dark-bg);
+            box-shadow: 0 0 30px rgba(255, 0, 255, 0.6);
+        }
+
+        /* Quiz Box Header */
+        .quiz_box header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(0,255,255,0.2);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .quiz_box header .title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--neon-blue);
+        }
+
+        .timer {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            background: rgba(0, 255, 255, 0.1);
+            border: 1px solid var(--neon-blue);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+        
+        .time_left_txt { font-weight: 600; text-transform: uppercase; }
+        .timer_sec { font-size: 1.5rem; font-weight: 700; color: var(--neon-pink); }
+        
+        .time_line {
+            position: absolute;
+            bottom: -1px; left: 0;
+            height: 3px;
+            background: var(--neon-pink);
+            box-shadow: 0 0 10px var(--neon-pink);
+        }
+
+        /* Quiz Body */
+        .que_text {
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            line-height: 1.4;
+        }
+
+        .option_list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .option {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 1rem 1.5rem;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .option:hover {
+            background: rgba(0, 255, 255, 0.1);
+            border-color: var(--neon-blue);
+            color: #fff;
+        }
+
+        .option.correct {
+            background: rgba(0, 255, 0, 0.1);
+            border-color: #0f0;
+            color: #0f0;
+            box-shadow: 0 0 15px rgba(0,255,0,0.2);
+        }
+
+        .option.incorrect {
+            background: rgba(255, 0, 0, 0.1);
+            border-color: #f00;
+            color: #f00;
+            box-shadow: 0 0 15px rgba(255,0,0,0.2);
+        }
+
+        .option.disabled {
+            pointer-events: none;
+        }
+
+        /* Quiz Footer */
+        .quiz_box footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 2rem;
+            border-top: 1px solid rgba(0,255,255,0.2);
+            padding-top: 1.5rem;
+        }
+
+        .total_que {
+            font-size: 1.1rem;
+            color: #aaa;
+        }
+        
+        .total_que span {
+            color: var(--neon-blue);
+            font-weight: 700;
+            margin: 0 4px;
+        }
+
+        .next_btn {
+            display: none; /* hidden by default in JS logic usually, but handled here just in case */
+        }
+        .next_btn.show {
+            display: block;
+        }
+
+        /* Result Box */
+        .result_box {
+            text-align: center;
+        }
+
+        .result_box .icon {
+            font-size: 5rem;
+            color: var(--neon-pink);
+            margin-bottom: 2rem;
+            text-shadow: 0 0 20px rgba(255,0,255,0.5);
+        }
+
+        .complete_text {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .score_text span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .score_text span p {
+            font-weight: 700;
+            color: var(--neon-blue);
+            font-size: 2rem;
+        }
+
+        .result_box .buttons {
+            justify-content: center;
+        }
+
+    </style>
   </head>
   <body>
     <!-- start Quiz button -->
-    <div class="start_btn"><button>Start Quiz</button></div>
+    <div class="start_btn"><button>INITIALIZE_PROTOCOL</button></div>
 
-    <!-- Info Box -->
     <div class="info_box">
-      <div class="info-title"><span>Some Rules of this Quiz</span></div>
+      <div class="info-title"><span>System Parameters</span></div>
       <div class="info-list">
-        <div class="info">
-          1. You will have only <span>15 seconds</span> per each question.
-        </div>
-        <div class="info">
-          2. Once you select your answer, it can't be undone.
-        </div>
-        <div class="info">
-          3. You can't select any option once time goes off.
-        </div>
-        <div class="info">
-          4. You can't exit from the Quiz while you're playing.
-        </div>
-        <div class="info">
-          5. You'll get points on the basis of your correct answers.
-        </div>
+        <div class="info"> [SYS.1] Execute node within <span>15 seconds</span>.</div>
+        <div class="info"> [SYS.2] Node selection is immutable. Cannot rollback.</div>
+        <div class="info"> [SYS.3] Cycle terminates upon timeout.</div>
+        <div class="info"> [SYS.4] Escaping protocol is forbidden mid-cycle.</div>
+        <div class="info"> [SYS.5] Points allocated based on precision.</div>
       </div>
       <div class="buttons">
-        <button class="quit">Exit Quiz</button>
-        <button class="restart">Continue</button>
+        <button class="quit">ABORT</button>
+        <button class="restart">PROCEED</button>
       </div>
     </div>
 
-    <!-- Quiz Box -->
     <div class="quiz_box">
       <header>
-        <div class="title">Awesome Quiz Application</div>
+        <div class="title">CYBER_DB QUERY</div>
         <div class="timer">
-          <div class="time_left_txt">Time Left</div>
+          <div class="time_left_txt">T-MINUS</div>
           <div class="timer_sec">15</div>
         </div>
         <div class="time_line"></div>
       </header>
       <section>
         <div class="que_text">
-          <!-- Here I've inserted question from JavaScript -->
+          <!-- Populated via JS -->
         </div>
         <div class="option_list">
-          <!-- Here I've inserted options from JavaScript -->
+          <!-- Populated via JS -->
         </div>
       </section>
-
-      <!-- footer of Quiz Box -->
       <footer>
         <div class="total_que">
-          <!-- Here I've inserted Question Count Number from JavaScript -->
+          <!-- Populated via JS -->
         </div>
-        <button class="next_btn">Next Que</button>
+        <button class="next_btn">NEXT_NODE</button>
       </footer>
     </div>
 
-    <!-- Result Box -->
     <div class="result_box">
       <div class="icon">
-        <i class="fas fa-crown"></i>
+        <i class="fas fa-microchip"></i>
       </div>
-      <div class="complete_text">You've completed the Quiz!</div>
+      <div class="complete_text">PROTOCOL ACHIEVED</div>
       <div class="score_text">
-        <!-- Here I've inserted Score Result from JavaScript -->
+        <!-- Populated via JS -->
       </div>
       <div class="buttons">
-        <button class="restart">Replay Quiz</button>
-        <button class="quit">Quit Quiz</button>
+        <button class="restart">RE-ENGAGE</button>
+        <button class="quit">TERMINATE</button>
       </div>
     </div>
 
-    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <!-- Original external Scripts linked perfectly -->
     <script src="js/questions.js"></script>
-
-    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
     <script src="js/script.js"></script>
   </body>
 </html>
