@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&family=Syne:wght@400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="projects_data.js?v=vault-v2.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: false, theme: 'dark' });
+    </script>
     <style>
         :root {
             /* --- Tactical Design Tokens --- */
@@ -380,12 +384,168 @@
             .nav-links { display: none; }
             .showcase-grid, .vault-grid { grid-template-columns: 1fr; }
         }
+        /* --- Detail Overlay --- */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(13, 17, 23, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 2000;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .detail-container {
+            width: 90%;
+            max-width: 1200px;
+            max-height: 90vh;
+            overflow-y: auto;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            padding: 3rem;
+            animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: none;
+            border: none;
+            color: var(--text-dim);
+            font-size: 2.5rem;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .close-btn:hover {
+            color: var(--accent-primary);
+        }
+
+        .detail-header h2 {
+            font-family: 'Syne', sans-serif;
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            letter-spacing: -2px;
+            color: var(--text-bright);
+        }
+
+        .detail-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 3rem;
+            margin-top: 2rem;
+        }
+
+        .detail-info h3 {
+            font-family: 'Space Grotesk', monospace;
+            font-size: 0.9rem;
+            color: var(--accent-primary);
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .detail-info p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-dim);
+            margin-bottom: 2rem;
+        }
+
+        .detail-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .detail-info li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-bright);
+            font-family: 'Outfit', sans-serif;
+            font-weight: 500;
+        }
+
+        .detail-info li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--accent-primary);
+        }
+
+        .detail-visual {
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 15px;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .mermaid {
+            background: transparent !important;
+        }
+
+        /* --- Scrollbar --- */
+        .detail-container::-webkit-scrollbar {
+            width: 6px;
+        }
+        .detail-container::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+
+        @media (max-width: 900px) {
+            .detail-grid { grid-template-columns: 1fr; }
+            .detail-container { padding: 2rem; }
+        }
     </style>
 </head>
 <body>
 
-    <div id="cursor-dot"></div>
-    <div id="cursor-outline"></div>
+    <!-- --- System Detail Overlay --- -->
+    <div id="detail-overlay" class="overlay">
+        <div class="detail-container glass">
+            <button id="close-detail" class="close-btn">&times;</button>
+            <div class="detail-content">
+                <header class="detail-header">
+                    <h2 id="detail-title">SYSTEM_NAME</h2>
+                    <div id="detail-tags" class="tag-row"></div>
+                </header>
+                <div class="detail-grid">
+                    <div class="detail-info">
+                        <h3>ARCHITECTURAL_MISSION</h3>
+                        <p id="detail-description"></p>
+                        <h3>TECHNICAL_CHALLENGES</h3>
+                        <ul id="detail-challenges"></ul>
+                    </div>
+                    <div class="detail-visual">
+                        <h3>ARCHITECTURE_FLOW</h3>
+                        <div id="detail-diagram" class="mermaid"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --- Existing Cursor Elements --- -->
 
     <!-- --- Audit Log Terminal --- -->
     <div id="audit-terminal">
